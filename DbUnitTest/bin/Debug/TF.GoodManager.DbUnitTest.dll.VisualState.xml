@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1043]D:\trainWeb\运安系统\运安系统\DbUnitTest\bin\Debug\TF.GoodManager.DbUnitTest.dll</TopNode>
+  <SelectedNode>[0-1041]TF.GoodManager.UnitTest.DBGoodTypeTest.DBGoodTypeConstructorTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1043]D:\trainWeb\运安系统\运安系统\DbUnitTest\bin\Debug\TF.GoodManager.DbUnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1044]TF" Expanded="true" />
+    <Node UniqueName="[0-1045]TF.GoodManager" Expanded="true" />
+    <Node UniqueName="[0-1046]TF.GoodManager.UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1040]TF.GoodManager.UnitTest.DBGoodTypeTest" Expanded="true" />
+  </Nodes>
+</VisualState>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B7F48470-ADE1-4C87-AABE-352CFB9BB141}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoodManager</RootNamespace>
+    <AssemblyName>GoodManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BasePlat\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThinkFreely.DBUtility">
+      <HintPath>..\BasePlat\bin\Debug\ThinkFreely.DBUtility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBUtils\DBGoodType\DBGoodTypeInterface.cs" />
+    <Compile Include="DBUtils\DBReturnStateType\DBReturnStateTypeInterface.cs" />
+    <Compile Include="DBUtils\DBcodeRange\DBLendingManager.cs" />
+    <Compile Include="DBUtils\DBcodeRange\LendingManagerInterface.cs" />
+    <Compile Include="DBUtils\DBGoodType\DBGoodType.cs" />
+    <Compile Include="DBUtils\DBLendingInfoDetail\DBLendingInfoDetail.cs" />
+    <Compile Include="DBUtils\DBLendingInfoDetail\DBLendingInfoDetailInterface.cs" />
+    <Compile Include="DBUtils\DBLendingInfo\DBLendingInfo.cs" />
+    <Compile Include="DBUtils\DBLendingInfo\DBLendingInfoInterface.cs" />
+    <Compile Include="DBUtils\DBLendingTJInfo\DBLendingTjInfo.cs" />
+    <Compile Include="DBUtils\DBLendingTJInfo\DBLendingTJInfoInterface.cs" />
+    <Compile Include="DBUtils\DBReturnStateType\DBReturnStateType.cs" />
+    <Compile Include="Entry\GoodsDetailQueryParam%28物品详细参数%29\GoodsDetailQueryParam.cs" />
+    <Compile Include="Entry\GoodsQueryParam%28物品查询参数%29\GoodsQueryParam.cs" />
+    <Compile Include="Entry\GoodStatus%28物品状态类型%29\Get_InGetStateNames.cs" />
+    <Compile Include="Entry\GoodStatus%28物品状态类型%29\ReturnStateType.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\Get_InDeleteGoods.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\Get_InGetTrainmanNotReturnLendingInfo.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\Get_InGiveBackLendingInfo.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\Get_InIsHaveNotReturnGoods.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\Get_InQueryRecord.cs" />
+    <Compile Include="Entry\LendingInfo%28发放物品信息%29\LendingInfo.cs" />
+    <Compile Include="Entry\LendingInfoDetail%28物品详情%29\Get_InQueryDetails.cs" />
+    <Compile Include="Entry\LendingInfoDetail%28物品详情%29\Get_InQueryGoodsNow.cs" />
+    <Compile Include="Entry\LendingInfoDetail%28物品详情%29\Get_InSendGoods.cs" />
+    <Compile Include="Entry\LendingInfoDetail%28物品详情%29\LendingInfoDetail.cs" />
+    <Compile Include="Entry\LendingManager%28物品编码%29\Get_InDeleteGoodsCodeRange.cs" />
+    <Compile Include="Entry\LendingManager%28物品编码%29\Get_InGetGoodsCodeRange.cs" />
+    <Compile Include="Entry\LendingManager%28物品编码%29\Get_OutDeleteGoodsCodeRange.cs" />
+    <Compile Include="Entry\LendingManager%28物品编码%29\Get_OutGetGoodsCodeRange.cs" />
+    <Compile Include="Entry\LendingManager%28物品编码%29\LendingManager.cs" />
+    <Compile Include="Entry\LendingTjInfo%28物品统计%29\Get_InGetTongJiInfo.cs" />
+    <Compile Include="Entry\LendingTjInfo%28物品统计%29\LendingTjInfo.cs" />
+    <Compile Include="Entry\LendingType%28物品类型%29\Get_InGetGoodType.cs" />
+    <Compile Include="Entry\LendingType%28物品类型%29\LendingType.cs" />
+    <Compile Include="Logic\删除物品及归还记录\LCDelGoodsBackLog.cs" />
+    <Compile Include="Logic\发放物品\LCSendGoods.cs" />
+    <Compile Include="Logic\归还物品\LCGiveBackLendingInfo.cs" />
+    <Compile Include="Logic\未归还\LCIsHaveNotReturnGoods.cs" />
+    <Compile Include="Logic\查询发放记录\LCQuerySendRecord.cs" />
+    <Compile Include="Logic\物品状态\LCGoodState.cs" />
+    <Compile Include="Logic\物品类型\LCGoodType.cs" />
+    <Compile Include="Logic\统计信息\LCGetTjInfo.cs" />
+    <Compile Include="Logic\编码范围\LCCodeRange.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BasePlat\BasePlat.csproj">
+      <Project>{45D6003C-F61A-4433-9705-59250C4C4EF6}</Project>
+      <Name>BasePlat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonUtility\CommonUtility.csproj">
+      <Project>{AEB4AAD5-6D16-4138-8427-00F6E960D0DB}</Project>
+      <Name>CommonUtility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

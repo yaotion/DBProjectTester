@@ -1,0 +1,2 @@
+D:\trainWeb\运安系统\运安系统\TF.GoodManager.Data\sql\debug\TF.GoodManager.Data.dacpac
+D:\trainWeb\运安系统\运安系统\TF.GoodManager.Data\obj\Debug\TF.GoodManager.Data.dacpac

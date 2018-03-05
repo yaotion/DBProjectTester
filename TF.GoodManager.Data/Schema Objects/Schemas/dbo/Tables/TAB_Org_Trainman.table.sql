@@ -1,0 +1,45 @@
+﻿CREATE TABLE [dbo].[TAB_Org_Trainman](
+	[strTrainmanGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[strTrainmanNumber] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strTrainmanName] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[nPostID] [int] NULL,
+	[strWorkShopGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[FingerPrint1] [image] NULL,
+	[FingerPrint2] [image] NULL,
+	[Picture] [image] NULL,
+	[strGuideGroupGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strTelNumber] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
+	[strMobileNumber] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strAddress] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[nDriverType] [int] NULL,
+	[bIsKey] [int] NULL,
+	[dtRuZhiTime] [datetime] NULL,
+	[dtJiuZhiTime] [datetime] NULL,
+	[nDriverLevel] [int] NULL,
+	[strABCD] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strRemark] [varchar](2000) COLLATE Chinese_PRC_CI_AS NULL,
+	[nKeHuoID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strTrainJiaoluGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[dtLastEndWorkTime] [datetime] NULL,
+	[nDeleteState] [int] NULL,
+	[nID] [int] IDENTITY(1,1) NOT NULL,
+	[dtCreateTime] [datetime] NULL,
+	[nTrainmanState] [int] NULL,
+	[nZDD] [int] NULL,
+	[nZDZ] [int] NULL,
+	[strBZ] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strJP] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strTrainmanJiaoluGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[dtLastInRoomTime] [datetime] NULL,
+	[dtLastOutRoomTime] [datetime] NULL,
+	[strAreaGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[dtBecomeReady] [datetime] NULL,
+	[strFixedGroupGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[nFixedGroupIndex] [int] NULL,
+ CONSTRAINT [PK_TAB_ORG_TRAINMAN] PRIMARY KEY CLUSTERED 
+(
+	[strTrainmanGUID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON)
+)
+
+

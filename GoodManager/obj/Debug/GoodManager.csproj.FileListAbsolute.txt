@@ -1,0 +1,12 @@
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\GoodManager.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\GoodManager.pdb
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\BasePlat.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\Newtonsoft.Json.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\TF.RunSafty.CommonUtility.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\ThinkFreely.DBUtility.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\NVelocity.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\BasePlat.pdb
+D:\trainWeb\运安系统\运安系统\GoodManager\bin\Debug\TF.RunSafty.CommonUtility.pdb
+D:\trainWeb\运安系统\运安系统\GoodManager\obj\Debug\GoodManager.dll
+D:\trainWeb\运安系统\运安系统\GoodManager\obj\Debug\GoodManager.pdb
+D:\trainWeb\运安系统\运安系统\GoodManager\obj\Debug\GoodManager.csprojResolveAssemblyReference.cache

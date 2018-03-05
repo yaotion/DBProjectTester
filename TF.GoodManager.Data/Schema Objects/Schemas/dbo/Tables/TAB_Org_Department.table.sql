@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[TAB_Org_Department](
+	[nID] [int] IDENTITY(1,1) NOT NULL,
+	[strDepartmentGUID] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[strDepartmentName] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK_TAB_Org_Department] PRIMARY KEY CLUSTERED 
+(
+	[nID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON)
+)
+
+

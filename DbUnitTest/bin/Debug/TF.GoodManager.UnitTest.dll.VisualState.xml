@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1019]D:\trainWeb\运安系统\运安系统\DbUnitTest\bin\Debug\TF.GoodManager.UnitTest.dll</TopNode>
+  <SelectedNode>[0-1008]TF.GoodManager.UnitTest.DBReturnStateTypeTest.GetStateNamesTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1019]D:\trainWeb\运安系统\运安系统\DbUnitTest\bin\Debug\TF.GoodManager.UnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1020]TF" Expanded="true" />
+    <Node UniqueName="[0-1021]TF.GoodManager" Expanded="true" />
+    <Node UniqueName="[0-1022]TF.GoodManager.UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1016]TF.GoodManager.UnitTest.DBGoodTypeTest" Expanded="true" />
+    <Node UniqueName="[0-1017]TF.GoodManager.UnitTest.DBGoodTypeTest.DBGoodTypeConstructorTest" Checked="true" />
+    <Node UniqueName="[0-1018]TF.GoodManager.UnitTest.DBGoodTypeTest.GetGoodTypeTest" Checked="true" />
+    <Node UniqueName="[0-1009]TF.GoodManager.UnitTest.DBLendingManagerTest" Expanded="true" />
+    <Node UniqueName="[0-1010]TF.GoodManager.UnitTest.DBLendingManagerTest.DeleteGoodsCodeRangeTest" Checked="true" />
+    <Node UniqueName="[0-1011]TF.GoodManager.UnitTest.DBLendingManagerTest.GetGoodsCodeRangeTest" Checked="true" />
+    <Node UniqueName="[0-1012]TF.GoodManager.UnitTest.DBLendingManagerTest.GetGoodsCodeRangeTest1" Checked="true" />
+    <Node UniqueName="[0-1013]TF.GoodManager.UnitTest.DBLendingManagerTest.InsertGoodsCodeRangeTest" Checked="true" />
+    <Node UniqueName="[0-1014]TF.GoodManager.UnitTest.DBLendingManagerTest.IsGoodInRangeTest" Checked="true" />
+    <Node UniqueName="[0-1015]TF.GoodManager.UnitTest.DBLendingManagerTest.UpdateGoodsCodeRangeTest" Checked="true" />
+    <Node UniqueName="[0-1006]TF.GoodManager.UnitTest.DBReturnStateTypeTest" Expanded="true" />
+    <Node UniqueName="[0-1007]TF.GoodManager.UnitTest.DBReturnStateTypeTest.DBReturnStateTypeConstructorTest" Checked="true" />
+    <Node UniqueName="[0-1008]TF.GoodManager.UnitTest.DBReturnStateTypeTest.GetStateNamesTest" Checked="true" />
+    <Node UniqueName="[0-1000]TF.GoodManager.UnitTest.ProgramTester" Expanded="true" />
+    <Node UniqueName="[0-1001]TF.GoodManager.UnitTest.ProgramTester.TestAdd" Checked="true" />
+    <Node UniqueName="[0-1004]TF.GoodManager.UnitTest.ProgramTester.TestDivision1" Checked="true" />
+    <Node UniqueName="[0-1005]TF.GoodManager.UnitTest.ProgramTester.TestDivision2" Checked="true" />
+    <Node UniqueName="[0-1003]TF.GoodManager.UnitTest.ProgramTester.TestMutiply" Checked="true" />
+    <Node UniqueName="[0-1002]TF.GoodManager.UnitTest.ProgramTester.TestSubtract" Checked="true" />
+  </Nodes>
+</VisualState>
